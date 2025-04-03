@@ -44,7 +44,7 @@ function App() {
     
     try {
       // Send request to Flask backend
-      const response = await fetch('http://localhost:5000/chat', {
+      const response = await fetch('https://sage-backend-4.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
