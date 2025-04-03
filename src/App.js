@@ -44,7 +44,7 @@ function App() {
     
     try {
       // Send request to Flask backend
-      const response = await fetch('https://sage-backend-6.onrender.com', {
+      const response = await fetch('https://sage-backend-7.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
